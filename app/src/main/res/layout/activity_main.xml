@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/edt_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva uma palava"/>
+
+    <Button
+        android:id="@+id/btn_analyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analisar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Quantidade de letras é:"/>
+
+    <TextView
+        android:id="@+id/tv_character"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="quantidade de letras: "/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A quantidade de vogais é:"/>
+
+    <TextView
+        android:id="@+id/tv_vowen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Quantidade de vogais"/>
+
+    <Button
+        android:id="@+id/btnShowDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Exibir detalhes"/>
+</LinearLayout>
